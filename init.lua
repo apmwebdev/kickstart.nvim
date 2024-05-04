@@ -783,7 +783,7 @@ require('lazy').setup({
     priority = 1000, -- Make sure to load this before all the other start plugins.
     opts = {
       dim_inactive = true,
-      contrast = 'hard',
+      contrast = 'soft',
     },
     init = function()
       -- Load the colorscheme here.
